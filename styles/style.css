@@ -185,11 +185,12 @@ nav .btn{
 }
 
 .notes_dont_fail_container .notes_box_together .notes_card{
-    box-shadow: 0 0 8px 0  #00000021;
+    box-shadow: 0 0 8px 0  #00000014;
     /* border: 1px solid red; */
     text-align: center;
     max-width: 322px;
     height: 300px;
+    border-radius: 8px;
 }
 
 .notes_dont_fail_container .notes_box_together .notes_card h3{
@@ -214,6 +215,7 @@ nav .btn{
     border: 1px solid red;
     max-width: 1600px;
     width: 100%;
+    height: 840px;
     background-color: #FFFFFF;
 }
 
@@ -347,3 +349,94 @@ nav .btn{
 }
 
 /* ready section ends here */
+
+
+/* footer starts section here */
+
+.footer_container{
+    border: 1px solid red;
+    width: 100%;
+    max-width: 1600px;
+    height: 348px;
+    background-color: #001931; 
+}
+
+.footer_container .footer_upper_part{
+    border: 1px solid red;
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    margin: 120px auto 80px;
+    justify-content: space-between;
+}
+
+.footer_container .footer_upper_part .footer_logo_part{
+    width: 21.87%;
+    max-width: 350px;
+    height: 60px;
+    border: 1px solid red;
+}
+
+.footer_container .footer_upper_part .social_media{
+    border: 1px solid red;
+    width: 13.75%;
+    max-width: 220px;
+    height: 64px;
+}
+
+.footer_container .footer_upper_part .social_media h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF; 
+    line-height: 28px;
+    max-width: 113px;
+    height: 28px;
+    margin-bottom: 16px;
+}
+
+.footer_container .footer_upper_part .social_media .social_icons{
+    display: flex;
+    gap: 16px;
+}
+
+.footer_container .footer_upper_part .social_media .social_icons a{
+    background: #FFFFFF;
+    border-radius: 100px;
+    height: 20px;
+    width: 20px; 
+    color: #000000;
+}
+
+.footer_container hr{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+
+.footer_container .footer_lower_part{
+    border: 1px solid red;
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    margin: 0 auto 30px;
+    height: 54px;
+}
+
+.footer_container .footer_lower_part .footer_bottom{
+    border: 1px solid red;
+    width: 85%;
+    max-width: 1360px;
+    height: 24px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.footer_container .footer_lower_part p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+    line-height: 24px; 
+}
+
+/* footer ends section here */
