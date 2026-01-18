@@ -206,3 +206,66 @@ nav .btn{
     line-height: 20px;
 }
 /* notes_dont_fail section ends here   */
+
+
+/* solution section starts here */
+
+#solution{
+    border: 1px solid red;
+    max-width: 1600px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+#solution .solution_container{
+    border: 1px solid red;
+    max-width: 1360px;
+    width: 85%;
+    display: flex;
+    gap: 60px;
+    margin: 120px;
+}
+
+#solution .solution_container .solution_image{
+    border: 1px solid red;
+}
+
+.solution_container .solution_content{
+    margin: 102px 0 102px;
+    border: 1px solid red;
+}
+
+.solution_container .solution_content .solution_content_upper_part h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    line-height: 20px; 
+}
+
+.solution_content .solution_content_upper_part h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-top: 16px;
+}
+
+.solution_content .solution_content_upper_part p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px; 
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.solution_content .solution_content_lower_part .solution_content_lower_part_each_line{
+    display: flex;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    line-height: 20px;
+    gap: 6px; 
+}
+
+/* solution section ends here */
