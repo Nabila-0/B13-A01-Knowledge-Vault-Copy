@@ -214,7 +214,7 @@ nav .btn{
     border: 1px solid red;
     max-width: 1600px;
     width: 100%;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 #solution .solution_container{
@@ -269,3 +269,81 @@ nav .btn{
 }
 
 /* solution section ends here */
+
+
+/* ready section starts here */
+#ready{
+    border: 1px solid red;
+    width: 100%;
+    max-width: 1600px;
+    height: 506px;
+    background-color: #FFFFFF;
+}
+
+#ready .ready_container{
+    border: 1px solid red;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+
+.ready_container .ready_upper_part{
+    border: 1px solid red;
+    width: 80%;
+    max-width: 1280px;
+    margin: 80px auto 24px;
+    text-align: center;
+}
+
+.ready_container .ready_upper_part h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.ready_container .ready_upper_part p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+}
+
+.ready_container .ready_lower_part{
+    border: 1px solid red;
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ready_container .ready_lower_part .get_btn_parent{
+    display: flex;
+    justify-content: center;
+}
+
+.ready_container .ready_lower_part .get_btn{
+    display: flex;
+    gap: 10px;
+    padding: 16px;
+}
+
+.ready_container .ready_lower_part button{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF; 
+    box-shadow: 0 10px 20px 0 #00000026; 
+}
+
+.ready_container .ready_lower_part p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+    margin-top: 16px;
+    margin-bottom: 80px;
+}
+
+/* ready section ends here */
